@@ -19,12 +19,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: black;
-    list-style: none;
-}
+    list-style: none
+  }
     
 #logo {
     float: left;
     font-size: 250%;
+    font-weight: 1000;
     color: #252525;
     line-height: 100px;
     margin-left: 30%;
@@ -52,4 +53,25 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #252525;
+}
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url("../images/th-3538897110.jpg") no-repeat center center;
+  
+}
+
+#cover-text {
+      font-size: 130%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-transform: 3px
+      width: 800px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      background-color: rgba(211, 211, 211, 0.6);
+      bottom: 30px;
+      right: 150px;
+      position: absolute;
 }
