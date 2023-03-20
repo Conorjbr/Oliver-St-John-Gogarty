@@ -6,7 +6,50 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: Roboto; sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+    background : hsl(0, 1%, 84%);
 }
 
+/* headings and logo */
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    list-style: none;
+}
+    
+#logo {
+    float: left;
+    font-size: 250%;
+    color: #252525;
+    line-height: 100px;
+    margin-left: 30%;
+}
+
+#menu li {
+    font-size: 100%;
+    letter-spacing: 3px;
+    float:right;
+    list-style: none;
+    line-height: 100px;
+    margin-right: 15px;
+    
+}
+  
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    
+  }
+
+#menu a:hover {
+    border-bottom: 1px solid #252525;
+}
+
+.active {
+    border-bottom: 1px solid #252525;
+}
