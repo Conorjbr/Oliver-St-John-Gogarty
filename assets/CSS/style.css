@@ -111,7 +111,7 @@ h3 {
 
 .right-heading {
     width: 33%;
-    float: right;
+    float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -124,6 +124,11 @@ h3 {
     background-color: green;
 }
 
+.center1 {
+    width: 30%;
+    margin: 0 auto;
+    background-color: green;
+}
 
 .spacing-gap {
     height:20px;
@@ -131,8 +136,10 @@ h3 {
 
 
 
-ol {
+ol  li {
     margin-top: 15px;
+    margin-left: 20px;
+
 }
 
 hr {
