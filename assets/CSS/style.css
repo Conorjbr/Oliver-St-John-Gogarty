@@ -94,7 +94,7 @@ h3 {
 }
 
 .left-heading {
-    width: 60%;
+    width: 33%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -110,7 +110,7 @@ h3 {
 }
 
 .right-heading {
-    width: 60%;
+    width: 33%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -118,7 +118,7 @@ h3 {
     margin-left: 40px;
 }
 
-#center {
+.center {
     width: 33%;
     margin: 0 auto;
     background-color: green;
@@ -133,5 +133,10 @@ h3 {
 
 ol {
     margin-top: 15px;
+}
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
