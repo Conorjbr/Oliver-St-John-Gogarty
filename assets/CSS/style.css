@@ -71,25 +71,32 @@ h3 {
     width: 20%;
 }
 
+.space-between-logo-divs {
+    width: 100%;
+    height : 1px;
+    clear:both;
+}
+
 #cover-text {
     font-size: 130%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: 3px;
     width: 800px;
-    height: 300px;
+    height: 315px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(211, 211, 211, 0.2);
     bottom: 50px;
     right: 425px;
     position: absolute;
+   
 }
 
 #left {
     width: 33%;
     float: left;
-    
-    
+    margin-top: 30px;  
+   
 }
 
 .left-heading {
@@ -104,6 +111,8 @@ h3 {
 #right {
     width: 33%;
     float: right;
+    margin-top: 30px;  
+   
     
     
 }
@@ -122,19 +131,18 @@ h3 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
-    
-    
-
+    margin-top: 30px;
 }
 
 .center1 {
     width: 30%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
-.spacing-gap {
-    height: 20px;
-}
+/* .spacing-gap {
+    height: 20px; */
+
 
 
 
@@ -155,6 +163,8 @@ hr {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 110%;
     margin: 2px;
+    line-height: 170%;
+    
     color: #252525;
     }
 
