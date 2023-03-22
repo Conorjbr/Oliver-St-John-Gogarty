@@ -86,11 +86,9 @@ h3 {
 }
 
 #left {
-    padding-top: 10px;
-    margin : 20px;
     width: 33%;
     float: left;
-    background-color: blue;
+    
 }
 
 .left-heading {
@@ -103,10 +101,9 @@ h3 {
 }
 
 #right {
-    padding-top: 33px;
     width: 33%;
     float: right;
-    background-color: silver;
+    
 }
 
 .right-heading {
@@ -118,7 +115,8 @@ h3 {
     margin-left: 40px;
 }
 
-.center {
+#center {
+    padding-top: 37px;
     width: 33%;
     margin: 0 auto;
     background-color: green;
@@ -127,23 +125,47 @@ h3 {
 .center1 {
     width: 30%;
     margin: 0 auto;
-    background-color: green;
 }
 
 .spacing-gap {
-    height:20px;
+    height: 20px;
 }
 
 
 
-ol  li {
+ol li {
     margin-top: 15px;
     margin-left: 20px;
-
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
-    width: 100%;
+    width: 30%;
     margin: 5px 0;
 }
+
+
+
+.list-for-bio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    margin: 2px;
+    color: #252525;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+     
+} 
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
