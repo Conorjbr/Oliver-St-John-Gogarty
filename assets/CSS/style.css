@@ -89,10 +89,11 @@ h3 {
     width: 33%;
     float: left;
     
+    
 }
 
 .left-heading {
-    width: 33%;
+    width: 80%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -104,14 +105,15 @@ h3 {
     width: 33%;
     float: right;
     
+    
 }
 
 .right-heading {
-    width: 33%;
+    width: 80%;
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-left: 40px;
 }
 
@@ -120,6 +122,9 @@ h3 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+    
+    
+
 }
 
 .center1 {
@@ -151,19 +156,19 @@ hr {
     font-size: 110%;
     margin: 2px;
     color: #252525;
-}
+    }
 
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks li {
     display: inline;
      
 } 
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
