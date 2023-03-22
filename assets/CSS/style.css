@@ -86,10 +86,20 @@ h3 {
 }
 
 #left {
-    padding-top: 33px;
+    padding-top: 10px;
+    margin : 20px;
     width: 33%;
     float: left;
     background-color: blue;
+}
+
+.left-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-left: 40px;
 }
 
 #right {
@@ -97,6 +107,15 @@ h3 {
     width: 33%;
     float: right;
     background-color: silver;
+}
+
+.right-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-left: 40px;
 }
 
 #center {
@@ -108,4 +127,11 @@ h3 {
 
 .spacing-gap {
     height:20px;
+}
+
+
+
+ol {
+    margin-top: 15px;
+
 }
