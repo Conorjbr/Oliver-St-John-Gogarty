@@ -272,19 +272,18 @@ hr {
    
 }
 
-.links h2 {
+.links h2 li {
     clear:both;
     width: 133%;
-    height: 100px;
+    height: 90px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #252525;
 
-.links  li {
-    font-size: 110%;
-    margin: 2px;
-    line-height: 110%;
-}
+/* .links li {
+    font-size: 150%;
+   
+} */
 
 
 }
@@ -296,10 +295,10 @@ hr {
 
 .flex-child {
     flex: 1;
-    border: 2px solid rgb(46, 44, 44);
+    border: 1px solid rgb(46, 44, 44);
     
 }  
 
 .flex-child:first-child {
-    margin-right: 50px;
+    margin-right: 100px;
 }
