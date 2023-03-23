@@ -185,20 +185,20 @@ hr {
     color: #3a3a3a;
 }
 
-.end-text-image {
+/* .end-text-image {
     width: 700px;
     height: 500px;
     float: right;
     background-color: blue;
-    margin-right: 150px;
+    margin-right: 150px; */
 
 }
 
-#tower-image {
+/* #tower-image {
     /* height: 645px; */
-    width: 50%;
+    /* width: 50%;
     background: url("../images/Martello tower.jpg") no-repeat center center;
-    /* margin: 0 auto; */
-}
+    margin: 0 auto; */
+/* } */ 
 
 
