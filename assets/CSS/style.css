@@ -220,6 +220,7 @@ hr {
     height: 500px;
 }
 
+
 .signup-form {
     margin: 0 auto;
     max-width: 400px;
@@ -254,14 +255,12 @@ hr {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: rgb(157, 192, 156)
-    color: #3a3a3a;
-    border-color: #252525;
-    display: block;
+    background-color: white;
+   
 }
 
 .join-button:hover {
-    background-color: #fafafa;
+    background-color: #1f6d15;
     color: #144b26;
 }
 
@@ -270,13 +269,37 @@ hr {
     height: 500px;
     border-color: blue;
     margin: 0 auto;
+   
 }
 
 .links h2 {
+    clear:both;
+    width: 133%;
+    height: 100px;
+    margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 150%;
-    margin: 2px;
-    line-height: 170%;
-    list-style: disc;
+    color: #252525;
 
+.links  li {
+    font-size: 110%;
+    margin: 2px;
+    line-height: 110%;
+}
+
+
+}
+.flex-container {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid rgb(46, 44, 44);
+    
+}  
+
+.flex-child:first-child {
+    margin-right: 50px;
 }
