@@ -24,7 +24,7 @@
                         <a href="contact&links.html" class="active">Contact</a>
                     </li>
                     <li>
-                        <a href="gallery.html" >Gallery</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
                     <li>
                         <a href="bibliography.html">Bibliography</a>
@@ -37,49 +37,60 @@
 
     </header>
     <div class="space-between-logo-divs"></div>
+    
 
+    
     <section>
 
+        <div class="flex-container">
+
+            <div class="flex-child magenta">
+                <form class="links" method="POST" action="https://formdump.codeinstitute.net/">
+                    <h2>Interested in Irish Literature & History ? Get in touch !</h2>
+                    <label for="fname">First Name</label>
+                    <input id="fname" class="text-input" type="text" name="first_name" required />
+                    <label for="lname">Last Name</label>
+                    <input id="lname" class="text-input" type="text" name="last_name" required />
+                    <label for="email">Email Address</label>
+                    <input id="email" class="text-input" type="email" name="email_address" required />
+                    <input class="join-button" type="submit" value="Send" />
+            </div>
+
+            <div class="flex-child green">
+                <div class="links">
+                    <h2>Useful Links</h2>
+                    <ul class="books-list"></ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Oliver_St._John_Gogarty" target="_blank" rel="noopener"
+                            aria-label="Wikipedia page(opens in a new tab)">Oliver St. John Gogarty - Wikipedia</li>
+                    <li><a href="https://en.wikipedia.org/wiki/James_Joyce" target="_blank" rel="noopener"
+                            aria-label="Wikipedia page(opens in a new tab)">James Joyce- Wikipedia</li>
+                    <li><a href="https://joycetower.ie/" target="_blank" rel="noopener"
+                            aria-label="Wikipedia page(opens in a new tab)">James Joyce- Tower & Museum</li>
+                    <li><a href="https://www.dib.ie/index.php/biography/gogarty-oliver-st-john-a3513" target="_blank"
+                            rel="noopener" aria-label="Wikipedia page(opens in a new tab)">Dictionary of Irish Biography
+                            - Oliver St. John Gogarty</li>
+                    <li><a href="https://moli.ie/" target="_blank" rel="noopener"
+                            aria-label="Wikipedia page(opens in a new tab)">Museum of Literature Ireland</li>
+                    <li><a href="https://en.wikipedia.org/wiki/Ulysses_(novel)" target="_blank" rel="noopener"
+                            aria-label="Wikipedia page(opens in a new tab)">Ulysses (novel)</li>
+                    <li><a href="https://www.goodreads.com/book/show/1163144.As_I_Was_Going_Down_Sackville_Street"
+                            target="_blank" rel="noopener" aria-label="Wikipedia page(opens in a new tab)">Goodreads -
+                            As I was Going Down Sackville Street></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <div class="flex-container">
-
-        <div class="flex-child magenta">
-            <form class="links" method="POST" action="https://formdump.codeinstitute.net/">
-                <h2>Interested in Irish Literature & History ? Get in touch !</h2>
-                <label for="fname">First Name</label>
-                <input id="fname" class="text-input" type="text" name="first_name" required />
-                <label for="lname">Last Name</label>
-                <input id="lname" class="text-input" type="text"  name="last_name" required />
-                <label for="email">Email Address</label>
-                <input id="email" class="text-input" type="email" name="email_address" required/>
-                <input class="join-button"  type="submit" value="Send"/>
+    <section>
+        <div class="audio">
+            Interview with Oliver St. John Gogarty, BBC Radio 1949
         </div>
-        
-        <div class="flex-child green">
-            <div class="links">
-                <h2>Useful Links</h2>
-                <ul class="books-list"></ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Oliver_St._John_Gogarty" target="_blank" rel="noopener"
-                    aria-label="Wikipedia page(opens in a new tab)">Oliver St. John Gogarty - Wikipedia</li>
-                    <li><a href="https://en.wikipedia.org/wiki/James_Joyce" target="_blank" rel="noopener"
-                        aria-label="Wikipedia page(opens in a new tab)">James Joyce- Wikipedia</li>
-                    <li><a href="https://joycetower.ie/" target="_blank" rel="noopener"
-                        aria-label="Wikipedia page(opens in a new tab)">James Joyce- Tower & Museum</li>
-                    <li><a href="https://www.dib.ie/index.php/biography/gogarty-oliver-st-john-a3513" target="_blank" rel="noopener"
-                        aria-label="Wikipedia page(opens in a new tab)">Dictionary of Irish Biography - Oliver St. John Gogarty</li>
-                    <li><a href="https://moli.ie/" target="_blank" rel="noopener"
-                        aria-label="Wikipedia page(opens in a new tab)">Museum of Literature Ireland</li>
-                    <li><a href="https://en.wikipedia.org/wiki/Ulysses_(novel)" target="_blank" rel="noopener"
-                        aria-label="Wikipedia page(opens in a new tab)">Ulysses (novel)</li>
-                    <li><a href="https://www.goodreads.com/book/show/1163144.As_I_Was_Going_Down_Sackville_Street" target="_blank" rel="noopener"
-                            aria-label="Wikipedia page(opens in a new tab)">Goodreads - As I was Going Down Sackville Street</li>
-                </ul>
-            
-            </div>
+        <div class="audio-player">
+            <audio src= ./assets/"myaudio.mp3" controls muted loop>
         </div>
-        
-      </div>
+    </section>
 
     <footer>
         <ul class="social-networks">
