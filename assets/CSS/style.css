@@ -25,13 +25,15 @@ h3 {
 }
 
 #logo {
-    float: left;
     font-size: 250%;
     text-transform: uppercase;
     font-weight: 1000;
     color: #252525;
     line-height: 100px;
-    margin-left: 35%;
+    text-align: center;
+    margin : 0 auto;
+    margin-top: 50px;
+
 
 }
 
@@ -323,7 +325,7 @@ hr {
   
 }
 
-a {
+.links-list {
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #252525;
