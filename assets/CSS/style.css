@@ -86,15 +86,15 @@ h3 {
 .bio-text {
     text-align:center;
     height: 25px;
-    margin-top: 65px;    
+    margin-top: 65px; 
+    margin-bottom: 40px;   
 } 
 
 .bio-text2 {
     text-align:justify;
     block-size: fit-content;
-    margin-top: 65px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: auto;
+    width: 50%;
 } 
 
 #left {
