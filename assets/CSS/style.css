@@ -330,6 +330,11 @@ hr {
 
 }
 
+.links-list:hover {
+    border-bottom: 1px solid #252525;
+    color: blue;
+}
+
 .square {
     width: 500px;
     height: 300px;
