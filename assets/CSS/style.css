@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* * {
-    margin: 0;
-    padding: 0;
-    border: none;
-} */
-
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
@@ -13,7 +7,6 @@ body {
     background: hsl(0, 1%, 84%);
 }
 
-/* headings and logo */
 
 h1,
 h2,
@@ -31,7 +24,7 @@ h3 {
     color: #252525;
     line-height: 100px;
     text-align: center;
-    margin : 0 auto;
+    margin: 0 auto;
     margin-top: 50px;
 
 
@@ -66,7 +59,7 @@ h3 {
     width: 50%;
     background: url("../images/hero-image.jpg") no-repeat center center;
     margin: 0 auto;
-    
+
 }
 
 #section-a {
@@ -81,25 +74,25 @@ h3 {
 }
 
 .cover-text {
-    text-align:center;
+    text-align: center;
     height: 25px;
 }
 
 .bio-text {
-    text-align:center;
+    text-align: center;
     height: 25px;
-    margin-top: 65px; 
+    margin-top: 65px;
     margin-bottom: 40px;
-    font-size: 140%;   
-} 
+    font-size: 140%;
+}
 
 .bio-texttwo {
-    text-align:justify;
+    text-align: justify;
     block-size: fit-content;
     margin: auto;
     width: 50%;
     font-size: 120%;
-} 
+}
 
 #left {
     width: 33%;
@@ -193,11 +186,11 @@ hr {
 }
 
 .books-list {
-    clear:both;
+    clear: both;
     width: 50%;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+}
 
 .books-list li {
     font-size: 110%;
@@ -214,7 +207,7 @@ hr {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -222,11 +215,10 @@ hr {
 
 .form-section {
     clear: left;
-    background: grey
+    background: grey;
     background-position: center;
     height: 500px;
 }
-
 
 .signup-form {
     margin: 0 auto;
@@ -237,7 +229,7 @@ hr {
     color: #252525;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #252525;
     margin-bottom: 20px;
 }
@@ -263,7 +255,7 @@ hr {
     text-align: center;
     font-size: 100%;
     background-color: white;
-   
+
 }
 
 .join-button:hover {
@@ -277,11 +269,11 @@ hr {
     border-color: blue;
     margin: 0 auto;
     list-style: none;
-   
+
 }
 
 .links h2 ul {
-    clear:both;
+    clear: both;
     width: 133%;
     height: 90px;
     margin: auto;
@@ -299,8 +291,8 @@ hr {
 .flex-child {
     flex: 1;
     border: 1px solid rgb(46, 44, 44);
-    
-}  
+
+}
 
 .flex-child:first-child {
     margin-right: 100px;
@@ -309,7 +301,7 @@ hr {
 .audio {
     width: 50%;
     font-size: 150%;
-    margin:  0 auto;
+    margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -318,11 +310,11 @@ hr {
 
 .audio-player {
     width: 40%;
-    margin:  0 auto;
+    margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 40px;
-  
+
 }
 
 .links-list {
@@ -332,13 +324,40 @@ hr {
     text-decoration: none;
     font-size: 120%;
     line-height: 50px;
-    
+
 }
 
 .square {
-    width : 500px;
+    width: 500px;
     height: 300px;
     margin-top: 8%;
-    position:absolute;
+    position: absolute;
     margin-left: 60%;
+}
+
+.test-square {
+    height: 50px;
+    width: 50%;
+    border: 3px solid green;
+    float: right;
+}
+
+/*media queries*/
+/*for large to medium screens 1200px wide and lower*/
+@media screen and (max-width: 1200px) {
+    .square {
+        background-image: url("assets/images/martello-tower.jpg") ;
+        opacity: 0.3;
+        display: block;
+        margin-left: 30%;
+        margin-top: 30%;
+        width: 50%;
+    }
+
+    #flex-child-green {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 }
