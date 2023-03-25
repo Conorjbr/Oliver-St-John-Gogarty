@@ -288,7 +288,7 @@ hr {
     margin-right: 30px;
     width: 90%;
     flex-direction: row;
-    height:max-content;
+    height: max-content;
 }
 
 .flex-child {
@@ -349,7 +349,7 @@ hr {
 /*for large to medium screens 1200px wide and lower*/
 @media screen and (max-width: 1200px) {
     .square {
-        background-image: url("assets/images/martello-tower.jpg") ;
+        background-image: url("assets/images/martello-tower.jpg");
         opacity: 0.3;
         display: block;
         margin-left: 30%;
@@ -360,13 +360,13 @@ hr {
     .flex-container {
         flex-direction: column;
         row-gap: 15px;
-         }
+    }
 
     #audio {
-            clear: both;
-            width: 30%;
-            float: left;
-            padding: 0;
+        clear: both;
+        width: 30%;
+        float: left;
+        padding: 0;
     }
 }
 
@@ -377,57 +377,64 @@ hr {
 
     #logo {
         font-size: 200%;
-}
-
-#audio {
-    clear: both;
-    width: 100%;
-    float: left;
-    margin: auto;
-    padding: 0;
-}
-
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
     }
 
-    #logo {
-        font-size: 150%;
-    }
-
-    .square {
-        opacity: 0;
-    }
-
-    .phone-hero-image {
-        clear:both ;
-        /* width: 50%;
-        height: 50%; */
-    }
-
-    .bio-texttwo {
-        height: 0px;
-        opacity: 0;
-    }
-     
-    
-    .audio-player {
+    #audio {
+        clear: both;
         width: 100%;
-        margin: 0 auto;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        margin-top: 40px;
+        float: left;
+        margin: auto;
+        padding: 0;
     }
 
-    .audio {
-        opacity: 0;
-    }
+    @media screen and (max-width: 800px) {
+        #photos {
+            column-count: 2;
+        }
 
-    h1, h2, h2, p {
-        margin-top: 50px;
+        #logo {
+            font-size: 150%;
+        }
+
+        .square {
+            opacity: 0;
+        }
+
+        .phone-hero-image {
+            clear: both;
+            /* width: 50%;
+        height: 50%; */
+        }
+
+        .bio-texttwo,
+        .bio-text {
+            height: 0px;
+            opacity: 0;
+        }
+
+
+        .audio-player {
+            width: 100%;
+            margin: 0 auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .audio {
+            opacity: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            margin-top: 50px;
+            font-size: 120%;
+        }
+
+        .links-list {
+            line-height: 25px;
+        }
     }
-    .links-list {
-        line-height: 25px;
-    }
-    }
+}
