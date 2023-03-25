@@ -298,7 +298,7 @@ hr {
 }
 
 .flex-child:first-child {
-    margin-right: 100px;
+    margin-right: 0px;
 }
 
 .audio {
@@ -378,6 +378,13 @@ hr {
     #logo {
         font-size: 200%;
 }
+
+#audio {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin: auto;
+    padding: 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -404,17 +411,23 @@ hr {
         opacity: 0;
     }
      
+    
+    .audio-player {
+        width: 100%;
+        margin: 0 auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin-top: 40px;
     }
 
-    /* #menu {
-        clear: left;
-        float: left;
-        /* margin-left: 30px; */
-        margin-bottom: 20px;
-        line-height: 25px; */
+    .audio {
+        opacity: 0;
     }
 
     h1, h2, h2, p {
         margin-top: 50px;
+    }
+    .links-list {
+        line-height: 25px;
     }
     }
