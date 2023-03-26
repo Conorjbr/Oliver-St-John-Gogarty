@@ -10,50 +10,28 @@ body {
 .red-div {
     color: red;
     border: 1px solid red;
-    width : 200px;
+    width: 200px;
     height: 200px;
     margin-top: 100px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Roboto, sans-serif;
     letter-spacing: 3px;
     color: black;
     list-style: none;
     text-decoration: none;
-   
+
 }
-
-
-/* #logo {
-    font-size: 250%;
-    text-decoration-line: none;
-    text-transform: uppercase;
-    font-weight: 1000;
-    color: #252525;
-    line-height: 100px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 50px;
-    
-}
-
-#menu li {
-    font-size: 100%;
-    letter-spacing: 3px;
-    float: right;
-    list-style: none;
-    line-height: 100px;
-    margin-right: 15px;
-
-} */
 
 #logo {
     font-size: 250%;
     text-transform: uppercase;
-/*     font-weight: 1000; */
+    /*     font-weight: 1000; */
     color: #252525;
-/*     line-height: 100px; */
+    /*     line-height: 100px; */
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
@@ -79,17 +57,16 @@ a {
     display: inline-block;
     list-style: none;
     line-height: 20px;
-    margin: 0 auto; 
-/*     margin above is make the nav bar responsive */
+    margin: 0 auto;
     padding: 0 10px 0 5px;
 
 }
 
- @media screen and (max-width: 450px) {
-        #menu {
+@media screen and (max-width: 450px) {
+    #menu {
         font-size: 8px;
     }
- }
+}
 
 
 #menu a {
@@ -281,7 +258,7 @@ hr {
     color: #252525;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #252525;
     margin-bottom: 20px;
 }
@@ -347,7 +324,8 @@ hr {
     flex: 1;
     border: 1px solid rgb(46, 44, 44);
     border-radius: 10px;
-    margin-left:10px;
+    margin-left: 10px;
+
 }
 
 .flex-child:first-child {
@@ -391,9 +369,9 @@ hr {
 .square {
     width: 500px;
     height: 300px;
-    margin-top: 8%;
+    margin-top: 5%;
     position: absolute;
-    margin-left: 60%;
+    margin-left: 63%;
 }
 
 .test-square {
@@ -445,21 +423,21 @@ hr {
         padding: 0;
     }
 
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
+    @media screen and (max-width: 800px) {
+        #photos {
+            column-count: 2;
         }
 
-    #logo {
-        font-size: 150%;
+        #logo {
+            font-size: 150%;
         }
 
         .square {
-        opacity: 0;
+            opacity: 0;
         }
 
         .phone-hero-image {
-        clear: both;
+            clear: both;
             /* width: 50%;
         height: 50%; */
         }
@@ -494,5 +472,15 @@ hr {
         .links-list {
             line-height: 25px;
         }
+
+
+
+    }
+
+    @media screen and (max-width: 450px) {
+        #menu {
+            font-size: 8px;
+        }
     }
 }
+
