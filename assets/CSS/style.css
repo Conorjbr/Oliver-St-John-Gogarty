@@ -7,18 +7,26 @@ body {
     background: hsl(0, 1%, 84%);
 }
 
+.red-div {
+    color: red;
+    border: 1px solid red;
+    width : 200px;
+    height: 200px;
+    margin-top: 100px;
+}
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: Roboto, sans-serif;
     letter-spacing: 3px;
     color: black;
-    list-style: none
+    list-style: none;
+    text-decoration: none;
+   
 }
 
 #logo {
     font-size: 250%;
+    text-decoration-line: none;
     text-transform: uppercase;
     font-weight: 1000;
     color: #252525;
@@ -26,8 +34,7 @@ h3 {
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
-
-
+    
 }
 
 #menu li {
@@ -62,10 +69,10 @@ h3 {
 
 }
 
-#section-a {
+/* #section-a {
     float: left;
     width: 20%;
-}
+} */
 
 .space-between-logo-divs {
     width: 100%;
@@ -229,7 +236,7 @@ hr {
     color: #252525;
 }
 
-.signup-form>h2 {
+.signup-form > h2 {
     color: #252525;
     margin-bottom: 20px;
 }
@@ -392,21 +399,21 @@ hr {
         padding: 0;
     }
 
-    @media screen and (max-width: 800px) {
-        #photos {
-            column-count: 2;
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
         }
 
-        #logo {
-            font-size: 150%;
+    #logo {
+        font-size: 150%;
         }
 
         .square {
-            opacity: 0;
+        opacity: 0;
         }
 
         .phone-hero-image {
-            clear: both;
+        clear: both;
             /* width: 50%;
         height: 50%; */
         }
