@@ -129,35 +129,34 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
   - Gallery.html
     - ul duplicate element noted - tag removed to resolve issue
     - a element  closing tag missing - added to resolve issue
-    - section lacks header noted - added h2 element to resolve as adding div messes up the gallery format.
-    - After completion of the above steps the following message was shown *"Document checking completed. No errors or warnings to show."*
+    - Following warning was received 
+    "Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
+
+    h2 element with test "Some Interesting Photos" added to resolve the above.
 
 
   - Contact.html
     - ul duplicate element noted - tag removed to resolve issue
-    - a & li elements  closing tag missing - added to resolve issue
-    - section lacks header noted - added h2 element to resolve but this creates another problem as follows ;
-       
-       ![HTML validation warning](assets/images/HTML-warning.jpg)
+    - a & li elements  closing tag missing - added tags to resolve issue
+    - Following warning was received
+    "Warning: Empty heading."        
+    Text "Radio Interview" added to h2 element to resolve the above.
+    
 
-        I tried to add heading text to this and set opacity to 0 as I don't really need a h2 element here.  Decided not to try to resolve this further as code is functioning correctly.
     - audio element closing tag missing - added to resolve.
     - audio file, bad value noted due to spaces in audio filename.  Renamed file in my assets folder and also in the html tag to resolve this.  Checked audio player and audio is working correctly.
   
   - Style.css
     - *Congratulations! No Error Found.*
-    - <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-  
+    
+     - ![W3C Validator](assets/images/cssvalidator.jpg)
+   
     - One warning noted as follows "Imported style sheets are not checked in direct input and file upload modes"
   
 
 ### Unfixed Bugs
 
-As noted above in the html validator section, I decided not to resolve the "Empty Heading" warning in the contact.html page.  If I had more time I would rewrite my html to eliminate this error.
+* None
 
 ## Deployment
 
