@@ -1,10 +1,7 @@
-# Code Institute
+# Oliver St John Gogarty
+## A website to outline brief biography of a remarkable Dublin literary figure
 
-Welcome Conorjbr :
+I wanted to create a historical website to give some basic biograpical information, pictures, bibliography etc. of a write that I have an interest in.
 
-We have preinstalled all of the tools you need to get started.
-
-Happy coding ~~ $%^ ?
-
-python3 -m http.server
+Welcome! : [Code Institute](https://codeinstitute.net)
 
