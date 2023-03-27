@@ -10,6 +10,13 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Verdana as I lik e the clean look of this font.
 I decided that 4 pages would be enough to give a brief outlien of this person's life and achievements. I was conscious of adding a lot of text to the biography section and didn't want to overload the reader with too much reading material.
 
+I did some rough wireframe sketches of the proposed site layout before commencing mt html coding and this was a very useful exercise to do.  I did not use any wireframe creation sofwarw as I felt that the site structure was simple and my sketches were sufficient.  See sketches below.
+
+![Wireframe sketch 1](assets/images/WF-1.jpg)
+
+![Wireframe sketch 2](assets/images/WF-2.jpg)
+
+
 ### Hero Image
 I chose a hero image which is an oil-painting of the website subject which awas also painted by another famous artist, William Orpen.  I felt this gave an artistic and aesthetic effect to the reader on first opening the site and I feel this is a very good portrait.  I also liked the colour contrast with the light grey background.
 
@@ -20,21 +27,43 @@ Hero Image
 
 ### Navigation Bar
 
+I added a navigation bar using an unordered list from to create the four links required as follows ;
+- Home
+- Bibliography
+- Gallery
+- Contact (& links)
+
 ### Footer section
+
+I included a basic footer bar with links to social media sites for users to further interact with other interested persons.  This was based on the aproach as demonstrated in the "Love-Running" project and icons were taken from fontawesome.com.
 
 ### Landing page image
 
+As noted above I felt that this was an aesthetically pleasing, artisitc and interesting image for the user to begin their interactoin with the site. 
+
 ### Bio section
+
+There was a lot of information available for this section and the challenge here was to try to condense this into a suitable lenth passage so as not to put off prospective reader.  Oliver St. John Gogarty led a very full life as the reader will note.  I mainly used content from Wikipedia here and I deleted lot of information in order to make the piece more readable.  I feel that there id probably still too much information here and would add another page to hold the biographical details if I were developing the site further.
 
 ### Bibliography
 
+Added as a simple list. I felt that this was a very important aspect of the site and one that would be very interesting due to the subject's prolific output.
+
 ### Gallery
+
+Again I wanted to add this to give the site a bit more aesthetic appeal.
 
 ### Contact form
 
+I mainly used the css styling from the love running project in order to create the main elements of this form.  The form takes a very simple design approach and is currently not linked to a database to receive posted user information.
+
 ### Useful links
 
+Added as simple list for users to explore the subject further.
+
 ### Audio clip
+
+This is a very interesting interview which was made in 1949.  I feel that its inclusion adds a lot of interest to the site.
 
 ## Testing
 
@@ -86,8 +115,9 @@ Hero Image
 
 ### Unfixed Bugs
 
-## Deployment
+As noted above in the html validator section, I decided not to resolve the "Empty Heading" warning in the contact.html page.  If I had more time I would rewrite my html to eliminate this error.
 
+## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
