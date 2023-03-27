@@ -69,7 +69,11 @@ This is a very interesting interview which was made in 1949.  I feel that its in
 
 ### Validator Testing
 
-- HTML
+###### HTML tested with [W3C markup validation service](https://validator.w3.org/)
+
+###### CSS tested with [W3C CSS validation service](https://jigsaw.w3.org/css-validator/validator)
+
+- HTML 
   - index.html
     - Section closing tag missing - tag added to resolve issue.
     - Body closing tag missing - tag added to resolve issue.
@@ -93,7 +97,9 @@ This is a very interesting interview which was made in 1949.  I feel that its in
     - ul duplicate element noted - tag removed to resolve issue
     - a & li elements  closing tag missing - added to resolve issue
     - section lacks header noted - added h2 element to resolve but this creates another problem as follows ;
-         "Warning: Empty heading."
+       
+       ![HTML validation warning](assets/images/HTML-warning.jpg)
+
     I tried to add heading text to this and set opacity to 0 as I don't really need a h2 element here.  Decided not to try to resolve this further as code is functioning correctly.
     - audio element closing tag missing - added to resolve.
     - audio file, bad value noted due to spaces in audio filename.  Renamed file in my assets folder and also in the html tag to resolve this.  Checked audio player and is working correctly.
@@ -131,20 +137,32 @@ The live link can be found here - https://conorjbr.github.io/Oliver-St-John-Goga
 
 ### Content
 
-- 
--
--
--
+- [Wikipedia - Oliver St. John Gogarty](https://en.wikipedia.org/wiki/Oliver_St._John_Gogarty)
+- [Dictionary of Irish Biography](https://www.dib.ie/index.php/biography/gogarty-oliver-st-john-a3513)
+
 
 ### Media
--
--
--
+
+- [Libquotes](https://libquotes.com/oliver-st-john-gogarty)
+
+- [10best.com](https://www.10best.com/destinations/ireland/dublin/dublin-2/nightlife/oliver-st-john-gogarty/)
+
+- [Full Stop.net](https://www.full-stop.net/2012/08/13/features/essays/tyler-malone/a-stately-plump-bronze-medalist-john-gogarty-and-the-olympic-art-competitions/)
+
+- [Irish America.com](https://www.irishamerica.com/2018/11/oliver-st-john-gogarty/)
 
 ### Code
--
--
--
+- [W3 schools](https://www.w3schools.com/)
+
+- [Love running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
+
+- [coder coder !](https://coder-coder.com/)
+- [freecodecamp](https://www.freecodecamp.org/)
+- [Stack overflow](https://stackoverflow.com/questions/tagged/cs)
+- [Mozilla MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+- Mentor, Harry Dhillon 
+- Code institute alumni and students (via Slack chat) 
+- Code Institute tutoring service
 
 
 
