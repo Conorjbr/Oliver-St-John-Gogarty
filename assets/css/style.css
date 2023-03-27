@@ -476,9 +476,10 @@ hr {
 
     .books-list {
         width: 100%;
-        margin-left: 0px;
+        /* margin-left: -10px; */
         /* margin-right: 20px; */
-        font-size: 85%;
+        font-size: 85%; 
+        margin: 0 auto; 
     }
     .links-list {
         font-size: 80%;
