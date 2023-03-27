@@ -7,10 +7,10 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 
 ## General design of site 
 
-I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Verdana as I like the clean look of this font.
-I decided that 4 pages would be enough to give a brief outline of this person's life and achievements. I was conscious of adding a lot of text to the biography section and didn't want to overload the reader with too much reading material.
+I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Verdana as I like the clean look of this font.  
+I decided that 4 pages would be enough to give a brief outline of this person's life and achievements.  I was conscious of adding a lot of text to the biography section and didn't want to overload the reader with too much reading material.
 
-I did some rough wireframe sketches of the proposed site layout before commencing mt html coding and this was a very useful exercise to do.  I did not use any wireframe creation sofware as I felt that the site structure was simple and my sketches were sufficient.  See sketches below.
+I did some rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do.  I did not use any wireframe creation sofware as I felt that the site structure was simple and my basic sketches were sufficient.  See sketches below.
 
 ![Wireframe sketch 1](assets/images/WF-1.jpg)
 
@@ -18,7 +18,7 @@ I did some rough wireframe sketches of the proposed site layout before commencin
 
 
 ### Hero Image
-I chose a hero image which is an oil-painting of the website subject which was also painted by another famous artist, William Orpen.  I felt this gave an artistic and aesthetic effect to the reader on first opening the site and I feel this is a very good portrait.  I also liked the colour contrast with the light grey background.
+I chose a hero image which is an oil-painting of the website subject.  This was painted by the famous artist, Sir William Orpen.  I felt this image gives an artistic and aesthetic effect to the reader on first opening the site and I feel this is a very pleasing portrait.  I also liked the colour contrast with the light grey background.
 
 Hero Image
 ![Hero Image](assets/images/hero-image.jpg)
@@ -27,7 +27,7 @@ Hero Image
 
 ### Navigation Bar
 
-I added a navigation bar using an unordered list from to create the four links required as follows ;
+I added a navigation bar using an unordered list to create the four links required as follows ;
 - Home
 - Bibliography
 - Gallery
@@ -35,23 +35,23 @@ I added a navigation bar using an unordered list from to create the four links r
 
 ### Footer section
 
-I included a basic footer bar with links to social media sites for users to further interact with other interested persons.  This was based on the aproach as demonstrated in the "Love-Running" project and icons were taken from fontawesome.com.
+I included a simple footer bar with links to social media sites for users to further interact with other interested persons.  This was based on the aproach as demonstrated in the "Love-Running" project and icons were taken from fontawesome.com.
 
 ### Landing page image
 
-As noted above I felt that this was an aesthetically pleasing, artisitc and interesting image for the user to begin their interaction with the site. 
+As noted above I felt that this was an aesthetically pleasing, artistic and interesting image for the user to begin their interaction with the site. 
 
 ### Bio section
 
-There was a lot of information available for this section and the challenge here was to try to condense this into a suitable lenth passage so as not to put off prospective reader.  Oliver St. John Gogarty led a very full life as the reader will note.  I mainly used content from Wikipedia here and I deleted lot of the available information in order to make the piece more readable.  I feel that there is probably still too much information here and would add another page to hold the biographical details if I were developing the site further.
+There was a lot of information available for this section and the challenge here was to try to condense this into a suitable length passage to give a sense of the subject but not to put off the prospective reader.  Oliver St. John Gogarty led a very full life as the reader will note.  I mainly used content from Wikipedia here and I deleted lot of the available information in order to make the piece shorter and more readable.  I feel that there is probably still too much information here and would add another page to hold the biographical details if I were developing the site further.
 
 ### Bibliography
 
-Added as a simple list. I felt that this was a very important aspect of the site and one that would be very interesting due to the subject's prolific output.
+Added as a simple list. I felt that this was a very important aspect of the site and one that would be of great interest to the reader due to the subject's prolific output.
 
 ### Gallery
 
-Again I wanted to add this to give the site some more aesthetic appeal.
+I felt the site needed some aesthetic appeal. If time and ability allowed I would like to expand this page a lot further.
 
 ### Contact form
 
@@ -59,7 +59,7 @@ I based my contact form on the css styling as per the love running project.  My 
 
 ### Useful links
 
-Added as simple list of clickable links for users to explore the subject further.
+Added as a simple list of clickable links for users to explore the subject further.
 
 ### Audio clip
 
@@ -81,7 +81,7 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
 
 
   - bibliography.html
-    - figcaption error noted, figure element added around figcaption to resolve issue.
+    - figcaption error noted, figure element added to wrap around figcaption to resolve issue.
     - Section closing tag missing - tag added to resolve issue.
     - Div closing tag missing - tag added to resolve issue.
     - After completion of the above steps the following message was shown *"Document checking completed. No errors or warnings to show."*
@@ -102,7 +102,7 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
 
         I tried to add heading text to this and set opacity to 0 as I don't really need a h2 element here.  Decided not to try to resolve this further as code is functioning correctly.
     - audio element closing tag missing - added to resolve.
-    - audio file, bad value noted due to spaces in audio filename.  Renamed file in my assets folder and also in the html tag to resolve this.  Checked audio player and is working correctly.
+    - audio file, bad value noted due to spaces in audio filename.  Renamed file in my assets folder and also in the html tag to resolve this.  Checked audio player and audio is working correctly.
   
   - style.css
     - *Congratulations! No Error Found.*
@@ -148,16 +148,35 @@ The live link can be found here - https://conorjbr.github.io/Oliver-St-John-Goga
 - [Irish America.com](https://www.irishamerica.com/2018/11/oliver-st-john-gogarty/)
 
 ### Code
-- [W3 schools](https://www.w3schools.com/)
+- [W3 schools](https://www.w3schools.com/)  
+  * Various tips and trick to get the css styling to work.
 
 - [Love running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
 
+   * structure of navbar
+   * Structure of footer
+   * Structure of contact form
+
 - [coder coder !](https://coder-coder.com/)
+
+  * organising divs and applying correct styling
+
 - [freecodecamp](https://www.freecodecamp.org/)
+  * flex styling for contact form and links
+
 - [Stack overflow](https://stackoverflow.com/questions/tagged/cs)
+  * Misc tips and tricks to make flex styling work.
+
 - [Mozilla MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+  * Working with firefox Dev Tools
+
+
 - Code Institute Mentor, Harry Dhillon @Harry-Leepz
+
+
 - Code institute alumni and students (via Slack chat) 
+
+
 - Code Institute tutoring service
 
 
@@ -187,10 +206,22 @@ Overall the responsiveness looked acceptable.  I also checked all pages and mani
 
 ## Project Conclusions
 
+I am amazed that I was actually able to complete this project as I wsa totally at sea at the start.  I have learned a lot abount CSS and HTML in puting together this project and am keen to put this knowledge to further use.
+
 ### Learnings from this project
+I have learned to apply te basics of html and css styling. This has ben more dificult than I thought it would be, particularly the CSS.
+It appeared from the walk-through "Love-Running" project that things would come together quite esily once the main structure was in place.  This very nuch proved toi be not the case and I wa surprised at the amount of time the styling took.  I also was surprised at how much efforrt was required to get the responsiveness to work even as well as it does on my site, which is admittedly not perfect.  I have found a number of solutions to repeated issues such a s centring on a page etc. but I still find that positioning element is something I am ot fully comfortable with.
 
 ### Things I would do differently if starting again
+* Engage with mentor earlier 
+* Not put myself under time pressure ie start earlier.
+* spend more time planning the styling.
+
 
 ### Future improvements to the site
+
+* Improve the responsiveness at smaller sizes by adding burger menus etc.
+* Add another page to expand out the biography section
+* Improve the gallery styling & add captions to all images
 
 ### Acknowledgements & thanks
