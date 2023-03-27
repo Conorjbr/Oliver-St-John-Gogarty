@@ -10,6 +10,12 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Verdana as I lik e the clean look of this font.
 I decided that 4 pages would be enough to give a brief outlien of this person's life and achievements. I was conscious of adding a lot of text to the biography section and didn't want to overload the reader with too much reading material.
 
+### Hero Image
+I chose a hero image which is an oil-painting of the website subject which awas also painted by another famous artist, William Orpen.  I felt this gave an artistic and aesthetic effect to the reader on first opening the site and I feel this is a very good portrait.  I also liked the colour contrast with the light grey background.
+
+Hero Image
+![Hero Image](assets/images/hero-image.jpg)
+
 ## Features
 
 ### Navigation Bar
@@ -52,6 +58,25 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - https://conorjbr.github.io/Oliver-St-John-Gogarty/
 
 
+## Credits
+
+### Content
+
+- 
+-
+-
+-
+
+### Media
+-
+-
+-
+
+### Code
+-
+-
+-
+
 
 
 
@@ -62,7 +87,7 @@ I checked the URL in the "Am I Responsive" tool at [Am I responsive](https://ui.
 
 See results below.
 
-![Screenshot from am I responsive.com](![Alt text](assets/images/Am%20I%20responsive.jpg))
+![Screenshot from am I responsive.com](assets/images/Am%20I%20responsive.jpg)
 
 This checks the website responsiveness at the following screen sizes
 Desktop
