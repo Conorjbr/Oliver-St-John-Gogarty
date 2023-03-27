@@ -386,6 +386,10 @@ hr {
         float: left;
         padding: 0;
     }
+
+    .empty-div {
+        width: 100%
+            }
 }
 
 /*for medium screens 950px wide and lower*/
@@ -408,7 +412,7 @@ hr {
     }
 }
 
-/*for smaller screens & tablts 950px wide and lower*/
+/*for smaller screens & tablets 950px wide and lower*/
 
 @media screen and (max-width: 800px) {
     #photos {
@@ -430,8 +434,12 @@ hr {
 
     .bio-texttwo,
     .bio-text {
-        height: 0px;
-        opacity: 0;
+        /* height: 0px; */
+        display: none;
+    }
+
+    h2, h3  {
+        display : none;
     }
 
     .audio-player {
@@ -466,11 +474,19 @@ hr {
         font-size: 8px;
     }
 
-
     .books-list {
         width: 100%;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 0px;
+        /* margin-right: 20px; */
+        font-size: 85%;
     }
+    .links-list {
+        font-size: 80%;
+           }
 
+    h2, h3 {
+        display: none;
+    }
 }
+
+
