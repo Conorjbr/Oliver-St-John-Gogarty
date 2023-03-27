@@ -71,7 +71,7 @@ This is a very interesting interview which was made in 1949.  I feel that its in
 
 ###### HTML tested with [W3C markup validation service](https://validator.w3.org/)
 
-###### CSS tested with [W3C CSS validation service](https://jigsaw.w3.org/css-validator/validator)
+###### CSS tested with [W3C CSS validation service](https://jigsaw.w3.org/css-validator/)
 
 - HTML 
   - index.html
@@ -187,3 +187,14 @@ Mobile
     320x480px scaled down to scale(0.219)
 
 Overall the responsiveness looked acceptable.  I also checked all pages and manipulated screen size with the DevTools to check this and found results generally acceptable.  If I had more time and skills, I would change nav menu to burger type in the smaller sizes.  I investigated how to do this but found that I had insufficient time to progress further with this.
+
+
+## Project Conclusions
+
+### Learnings from this project
+
+### Things I would do differently if starting again
+
+### Future improvements to the site
+
+### Acknowledgements & thanks
