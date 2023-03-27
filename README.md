@@ -41,9 +41,33 @@ Hero Image
 ### Validator Testing
 
 - HTML
-  - Results
+  - index.html
+    - Section closing tag missing - tag added to resolve issue.
+    - Body closing tag missing - tag added to resolve issue.
+    - After completion of the above steps the following message was shown "Document checking completed. No errors or warnings to show."
+
+
+  - bibliography.html
+    - figcaption error noted, figure element added around figcaption to resolve issue.
+    - Section closing tag missing - tag added to resolve issue.
+    - Div closing tag missing - tag added to resolve issue.
+    - After completion of the above steps the following message was shown "Document checking completed. No errors or warnings to show."
+
+  - gallery.html
+    - ul duplicate element noted - tag removed to resolve issue
+    - a element  closing tag missing - added to resolve issue
+    - section lacks header noted - added h2 element to resolve as adding div messes up the gallery format.
+    - After completion of the above steps the following message was shown "Document checking completed. No errors or warnings to show."
+
+
+  - contact.html
+    - 
+  
+
 - CSS
   - Results
+
+  - Document checking completed. No errors or warnings to show.
 
 ### Unfixed Bugs
 
