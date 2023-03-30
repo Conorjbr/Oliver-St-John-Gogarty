@@ -305,4 +305,4 @@ I have learned to apply the basics of html and css styling. This has been more d
 Thanks to tutors at code institute and my mentor Harry Dhillon for their help with hetting this project done.  Also thanks to fellow code institute students and alumni who assisted me via slack messages and calls.
 You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
 
-[Back to top](<#-oliver-st.john-gogarty>)
+[Back to top](<#oliver-st.john-gogarty>)
