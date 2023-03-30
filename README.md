@@ -7,15 +7,15 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 
 ## Contents
 
-   1. User experience (UX)
+   1. [User Experience (UX](#user-experience)
    2. General site design
    3. Responsivenes
    4. Features
    5. Testing
    6. Deployment
    7. Credits
-   8. Conclusions
-   9. Acknowledgements & thanks
+   8. [Conclusions](#conclusions)
+   9. [Acknowledgements & thanks](#acknowledgements-&-thanks)
 
 
 ## User Experience (UX)
