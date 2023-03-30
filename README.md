@@ -19,7 +19,7 @@ I did some preliminary rough wireframe sketches of the proposed site layout befo
 At a later stage I refined the above into the 4-page layout that formed the final website design.
 These wireframes are shown below.
 
-![Wireframe page 1 final]!(assets/wireframes/wf-pgi-final.jpg)
+![Wireframe page 1 final](assets/wireframes/wf-pgi-final.jpg)
 ![Wireframe page 2 & 3 final](assets/wireframes/wf-pgii&iii-final.jpg)
 ![Wireframe page 1 final](assets/wireframes/wg-pgiv-final.jpg)
 
@@ -29,7 +29,7 @@ I checked the URL in the "Am I Responsive" tool at [Am I responsive](https://ui.
 
 See results below.
 
-![Screenshot from Am I Responsive.com](assets/images/amiresponsive.jpg)
+![Alt text](testing/amiresponsive.jpg)
 
 This checks the website responsiveness at the following screen sizes
 Desktop
@@ -64,13 +64,13 @@ I added a navigation bar using an unordered list to create the four links requir
 - Gallery
 - Contact (& links)
 
-![Nav Bar](assets/testing/nav-bar.jpg)
+![Alt text](testing/nav-bar.jpg)
 
 ### Footer section
 
 I included a simple footer bar with links to social media sites for users to further interact with other interested persons.  
 
-![Footer](assets/testing/footer.jpg)
+![Alt text](testing/footer.jpg)
 
 
 ### Landing page image
@@ -81,38 +81,38 @@ As noted above I felt that this was an aesthetically pleasing, artistic and inte
 
 There was a lot of information available for this section and the challenge here was to try to condense this into a suitable length passage to give a sense of the subject but not to put off the prospective reader.  Oliver St. John Gogarty led a very full life as the reader will note.  I mainly used content from Wikipedia here and I deleted lot of the available information in order to make the piece shorter and more readable.  I feel that there is probably still too much information here and would add another page to hold the biographical details if I were developing the site further.
 
-![Biography](assets/testing/bio.jpg)
+![Alt text](testing/bio.jpg)
 
 ### Bibliography
 
 Added as a simple list. I felt that this was a very important aspect of the site and one that would be of great interest to the reader due to the subject's prolific output.
 
-![Bibliography](assets/testing/bibliography.jpg)
+![Alt text](testing/bibliography.jpg)
 
 ### Gallery
 
 I felt the site needed some aesthetic appeal. If time and ability allowed I would like to expand this page a lot further.
 
-![Gallery](assets/testing/gallery.jpg))
+![Alt text](testing/gallery.jpg)
 
 
 ### Contact form
 
 My form takes a very simple design approach and is currently not linked to a database to receive the user-posted information.
 
-![Contact](assets/testing/contact.jpg)
+![Alt text](testing/contact.jpg)
 
 ### Useful links
 
 Added as a simple list of clickable links for users to explore the subject further.
 
-![Links](assets/testing/links.jpg)
+![Alt text](testing/links.jpg)
 
 ### Audio clip
 
 This is an interesting interview which was recorded in 1949.  I feel that its inclusion adds interest to the site.
 
-![Links](assets/testing/audio.jpg)
+![Alt text](testing/audio.jpg)
 
 ## Testing
 
