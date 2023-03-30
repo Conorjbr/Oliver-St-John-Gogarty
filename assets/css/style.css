@@ -5,11 +5,9 @@ body {
     color: #3a3a3a;
     background: hsl(0, 1%, 84%);
 }
-
 .active {
     border-bottom: 1px solid #252525;
 }
-
 h1,
 h2,
 h3 {
@@ -18,9 +16,7 @@ h3 {
     color: black;
     list-style: none;
     text-decoration: none;
-
 }
-
 #logo {
     font-size: 250%;
     text-transform: uppercase;
@@ -29,11 +25,9 @@ h3 {
     margin: 0 auto;
     margin-top: 50px;
 }
-
 a {
     text-decoration: none;
 }
-
 #menu {
     display: flex;
     align-items: center;
@@ -44,7 +38,6 @@ a {
     color: white;
     margin: 0 auto;
 }
-
 #menu li {
     font-size: 100%;
     letter-spacing: 3px;
@@ -53,24 +46,17 @@ a {
     line-height: 20px;
     padding: 0 10px 0 5px;
 }
-
-
-
-
 #menu a {
     text-decoration: none;
     color: inherit;
 
 }
-
 #menu a:hover {
     border-bottom: 1px solid #252525;
 }
-
 .active {
     border-bottom: 1px solid #252525;
 }
-
 #hero-image {
     height: 645px;
     width: 50%;
@@ -78,18 +64,15 @@ a {
     margin: 0 auto;
 
 }
-
 .space-between-logo-divs {
     width: 100%;
     height: 10px;
     clear: both;
 }
-
 .cover-text {
     text-align: center;
     height: 25px;
 }
-
 .bio-text {
     text-align: center;
     height: 25px;
@@ -97,7 +80,6 @@ a {
     margin-bottom: 40px;
     font-size: 140%;
 }
-
 .bio-texttwo {
     text-align: justify;
     block-size: fit-content;
@@ -105,14 +87,11 @@ a {
     width: 65%;
     font-size: 130%;
 }
-
 #left {
     width: 33%;
     float: left;
     margin-top: 30px;
-
 }
-
 .left-heading {
     width: 80%;
     float: left;
@@ -121,14 +100,11 @@ a {
     margin-bottom: 50px;
     margin-left: 40px;
 }
-
 #right {
     width: 33%;
     float: right;
     margin-top: 30px;
-
 }
-
 .right-heading {
     width: 80%;
     float: left;
@@ -137,7 +113,6 @@ a {
     margin-bottom: 10px;
     margin-left: 40px;
 }
-
 #center {
     padding-top: 37px;
     width: 33%;
@@ -145,26 +120,20 @@ a {
     background-color: green;
     margin-top: 30px;
 }
-
 .center1 {
     width: 30%;
     margin: 0 auto;
     margin-top: 30px;
 }
-
 ol li {
     margin-top: 15px;
     margin-left: 20px;
 }
-
 hr {
     border-top: 1px solid #3a3a3a;
     width: 30%;
     margin: 5px 0;
 }
-
-
-
 .list-for-bio {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 110%;
@@ -174,38 +143,30 @@ hr {
     margin-left: 10%;
     color: #252525;
 }
-
 .social-networks {
     text-align: center;
 }
-
 .social-networks li {
     display: inline;
-
 }
-
 .social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
-
 .books-list {
     clear: both;
     width: 50%;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .books-list li {
     font-size: 110%;
     margin: 2px;
     line-height: 110%;
 }
-
 /*gallery*/
-
 #photos {
     clear: both;
     line-height: 0;
@@ -216,16 +177,13 @@ hr {
 #photos>img {
     width: 100%;
 }
-
 /* Form */
-
 .form-section {
     clear: left;
     background: grey;
     background-position: center;
     height: 500px;
 }
-
 .signup-form {
     margin: 0 auto;
     max-width: 400px;
@@ -234,12 +192,10 @@ hr {
     padding: 30px;
     color: #252525;
 }
-
 .signup-form>h2 {
     color: #252525;
     margin-bottom: 20px;
 }
-
 .text-input {
     background: transparent;
     color: #252525;
@@ -249,11 +205,9 @@ hr {
     border: 1px solid #0000;
     border-radius: 2px;
 }
-
 .text-input:hover {
     border-color: #252525;
 }
-
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -261,25 +215,19 @@ hr {
     text-align: center;
     font-size: 100%;
     background-color: white;
-
 }
-
 .join-button:hover {
     background-color: #1f6d15;
     color: #144b26;
 }
-
 /* useful links*/
-
 .links {
     width: 60%;
     height: 500px;
     border-color: blue;
     margin: 0 auto;
     list-style: none;
-
 }
-
 .links h2 ul {
     clear: both;
     width: 133%;
@@ -289,9 +237,7 @@ hr {
     color: #252525;
     list-style: none;
 }
-
-
-
+/* form & links */
 .flex-container {
     display: flex;
     margin-left: 5%;
@@ -300,19 +246,16 @@ hr {
     flex-direction: row;
     height: max-content;
 }
-
 .flex-child {
     flex: 1;
     border: 1px solid rgb(46, 44, 44);
     border-radius: 10px;
     margin-left: 0px;
-
 }
-
 .flex-child:first-child {
     margin-right: 0px;
 }
-
+/* radio interview */
 .audio {
     width: 50%;
     font-size: 150%;
@@ -322,16 +265,13 @@ hr {
     margin-top: 50px;
     border: 1px solid rgb(46, 44, 44);
 }
-
 .audio-player {
     width: 40%;
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 40px;
-
 }
-
 .links-list {
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -339,29 +279,25 @@ hr {
     text-decoration: none;
     font-size: 100%;
     line-height: 50px;
-
 }
-
 .links-list:hover {
     border-bottom: 1px solid #252525;
     color: white;
 }
-
 .square {
     width: 500px;
     height: 300px;
     margin-top: 5%;
     position: absolute;
     margin-left: 63%;
+/* positioning & testing */
 }
-
 .test-square {
     height: 50px;
     width: 50%;
     border: 3px solid green;
     float: right;
 }
-
 /*media queries*/
 /*for large to medium screens 1200px wide and lower*/
 @media screen and (max-width: 1200px) {
@@ -373,35 +309,28 @@ hr {
         margin-top: 30%;
         width: 50%;
     }
-
     .flex-container {
         flex-direction: column;
         row-gap: 15px;
     }
-
     #audio {
         clear: both;
         width: 30%;
         float: left;
         padding: 0;
     }
-
     .empty-div {
         width: 100%
-            }
+    }
 }
-
 /*for medium screens 950px wide and lower*/
-
 @media screen and (max-width: 950px) {
     #photos {
         column-count: 3;
     }
-
     #logo {
         font-size: 200%;
     }
-
     #audio {
         clear: both;
         width: 100%;
@@ -410,27 +339,21 @@ hr {
         padding: 0;
     }
 }
-
 /*for smaller screens & tablets 800px wide and lower*/
-
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }
-
     #logo {
         font-size: 150%;
     }
-
     .square {
         opacity: 0;
     }
-
     .phone-hero-image {
         clear: both;
 
     }
-
     .bio-texttwo,
     .bio-text {
         /* height: 0px; */
@@ -438,11 +361,10 @@ hr {
         width: 80%;
         font-size: 90%;
     }
-
-    h2, h3  {
-        display : none;
+    h2,
+    h3 {
+        display: none;
     }
-
     .audio-player {
         width: 100%;
         margin: 0 auto;
@@ -450,11 +372,9 @@ hr {
         text-align: center;
         margin-top: 40px;
     }
-
     .audio {
         opacity: 0;
     }
-
     h1,
     h2,
     h3,
@@ -462,42 +382,33 @@ hr {
         margin-top: 50px;
         font-size: 120%;
     }
-
     .links-list {
         line-height: 25px;
     }
 }
-
 /*for phone screens & tablets 450px wide and lower*/
-
 @media screen and (max-width: 450px) {
     #menu {
         font-size: 8px;
     }
-
     .books-list {
         width: 100%;
         /* margin-left: -10px; */
         /* margin-right: 20px; */
-        font-size: 85%; 
-        margin: 0 auto; 
+        font-size: 85%;
+        margin: 0 auto;
     }
     .links-list {
         font-size: 80%;
-           }
-
-    h2, h3 {
+    }
+    h2,
+    h3 {
         display: none;
     }
-
     .bio-text {
         display: none;
     }
-
     #hero-image {
         display: none;
     }
-
 }
-
-
