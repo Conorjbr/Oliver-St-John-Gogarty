@@ -7,16 +7,14 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 
 ## Contents
 
-   1. [User Experience (UX](#user-experience)
+   1. User Experience (UX)
    2. General site design
    3. Responsivenes
    4. Features
    5. Testing
    6. Deployment
    7. Credits
-   8. [Conclusions](#conclusions)
-   9. [Acknowledgements & thanks](#acknowledgements-&-thanks)
-
+   8. Conclusions
 
 ## User Experience (UX)
 
@@ -372,10 +370,10 @@ OR
 
 ## Project Conclusions
 
-I found myself very confused at the start of this project as I did not have any previous experience of html or css.  I found that I learned a lot about both technologoes very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about CSS and HTML iand abount how to approach putting together a coding project.  I am keen to put this knowledge to further use.
+I found myself very confused at the start of this project as I did not have any previous experience of html or css.  I found that I learned a lot about both technologies very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about CSS and HTML and about how to approach putting together a coding project.  I am now keen to put this knowledge to further use.
 
 ### Learnings from this project
-I have learned to apply the basics of html and css styling. This has been more difficult than I thought it would be, particularly the CSS.  It appeared to me from the walk-through "Love-Running" project that things would come together quite readily once the main structure was in place.  This very nuch proved to not be the case and I was surprised at the amount of time the styling took.  I also was surprised at how much efforrt was required to get the responsiveness to work to an acceptable level.  I have found a number of solutions to repeated issues such as centring elements on a page etc. but I still find that positioning elements is something I would like to practice further in order get more confortable with.
+I have learned to apply the basics of html and css styling. This has been more difficult than I thought it would be, particularly the CSS.  It appeared to me from the walk-through "Love-Running" project that things would come together quite readily once the main structure was in place.  This very nuch proved to not be the case and I was surprised at the amount of time the styling took.  I also was surprised at how much effort was required to get the responsiveness to work to an acceptable level.  I have found a number of solutions to repeated issues such as centring elements on a page etc. but I still find that positioning elements is something I would like to practice further in order get more comfortable with.
 
 ### Things I would do differently if starting again
 * Engage with mentor earlier in the project development.
@@ -389,10 +387,10 @@ I have learned to apply the basics of html and css styling. This has been more d
 * Improve the responsiveness at smaller sizes by adding features such as burger menus etc.
 * Add another page to expand out the biography section / remove biography content from home page altogether.
 * Improve the gallery styling & add captions to all images.
+* Add video footage.
 
 ## Acknowledgements & thanks
 
-Thanks to tutors at code institute and my mentor Harry Dhillon for their help with hetting this project done.  Also thanks to fellow code institute students and alumni who assisted me via slack messages and calls.
-You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
+Thanks to the tutors at code institute and my mentor Harry Dhillon for their help with getting this project over the line.  Also thanks to my fellow code institute students and alumni who assisted me so much via slack messages and calls.  I had not realised there was such a great commnity of coders out there. You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
 
 [BACK TO TOP](#Oliver-St-John-Gogarty)
