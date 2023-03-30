@@ -7,17 +7,17 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 
 ## General design of site 
 
-I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Verdana as I like the clean look of this font.  
+I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Roboto & Verdana as I like the clean look of these fonts.  
 I decided that 4 pages would be enough to give a brief outline of this person's life and achievements.  I was conscious of adding a lot of text to the biography section and didn't want to overload the reader with too much reading material.
 
 I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do.  I did not use any wireframe creation sofware as I felt that the site structure was simple and my basic sketches were sufficient.  See sketches below.
 
-![Wireframe preliminary sketch 1](assets/images/wf-one.jpg)
+![Wireframe preliminary sketch 1](assets/wireframes/wf-i-prelim.jpg)
 
-![Wireframe preliminary sketch 2](assets/images/wf-two.jpg)
+![Wireframe preliminary sketch 2](assets/wireframes/wf-ii-prelim.jpg)
 
 At a later stage I refined the above into the 4-page layout that formed the final website design.
-These wireframes are shown bwlow.
+These wireframes are shown below.
 
 ![Wireframe page 1 final]!(assets/wireframes/wf-pgi-final.jpg)
 ![Wireframe page 2 & 3 final](assets/wireframes/wf-pgii&iii-final.jpg)
@@ -43,7 +43,7 @@ Mobile
 
 Overall the responsiveness looked acceptable.  I also checked all pages and manipulated screen size with the DevTools to check this and found results mostly acceptable.  
 
-Following further review & discussoins with fellow students and my mentor. I realised that the responsiveness of my constacts page at 360px was infact not acceptable and I modified styling of this page further to improve this.  I mainly used dev tools to check resolution at the various sizes and once I got the hang of settting the screen width correctly I found this worked OK for me. 
+Following further review & discussions with fellow students and my mentor. I realised that the responsiveness of my constacts page at 360px was in fact not acceptable and I modified styling of this page further to improve this.  I mainly used dev tools to check resolution at the various sizes and once I got the hang of settting the screen width correctly I found this worked OK for me. 
 I feel the responsiveness is acceptable at the various screen sizes.
 
 
@@ -64,13 +64,13 @@ I added a navigation bar using an unordered list to create the four links requir
 - Gallery
 - Contact (& links)
 
-![Nav Bar](assets/images/nav-bar.jpg)
+![Nav Bar](assets/testing/nav-bar.jpg)
 
 ### Footer section
 
 I included a simple footer bar with links to social media sites for users to further interact with other interested persons.  
 
-![Footer](assets/images/footer.jpg)
+![Footer](assets/testing/footer.jpg)
 
 
 ### Landing page image
@@ -81,38 +81,38 @@ As noted above I felt that this was an aesthetically pleasing, artistic and inte
 
 There was a lot of information available for this section and the challenge here was to try to condense this into a suitable length passage to give a sense of the subject but not to put off the prospective reader.  Oliver St. John Gogarty led a very full life as the reader will note.  I mainly used content from Wikipedia here and I deleted lot of the available information in order to make the piece shorter and more readable.  I feel that there is probably still too much information here and would add another page to hold the biographical details if I were developing the site further.
 
-![Biography](assets/images/bio.jpg)
+![Biography](assets/testing/bio.jpg)
 
 ### Bibliography
 
 Added as a simple list. I felt that this was a very important aspect of the site and one that would be of great interest to the reader due to the subject's prolific output.
 
-![Bibliography](assets/images/bibliography.jpg)
+![Bibliography](assets/testing/bibliography.jpg)
 
 ### Gallery
 
 I felt the site needed some aesthetic appeal. If time and ability allowed I would like to expand this page a lot further.
 
-![Gallery](assets/images/![Alt text](assets/images/gallery.jpg))
+![Gallery](assets/testing/gallery.jpg))
 
 
 ### Contact form
 
 My form takes a very simple design approach and is currently not linked to a database to receive the user-posted information.
 
-![Contact](assets/images/contact.jpg)
+![Contact](assets/testing/contact.jpg)
 
 ### Useful links
 
 Added as a simple list of clickable links for users to explore the subject further.
 
-![Links](assets/images/links.jpg)
+![Links](assets/testing/links.jpg)
 
 ### Audio clip
 
 This is an interesting interview which was recorded in 1949.  I feel that its inclusion adds interest to the site.
 
-![Links](assets/images/audio.jpg)
+![Links](assets/testing/audio.jpg)
 
 ## Testing
 
@@ -149,7 +149,8 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
     - Following warning was received
     "Warning: Empty heading."        
     Text "Radio Interview" added to h2 element to resolve the above.
-    
+  
+
 
     - audio element closing tag missing - added to resolve.
     - audio file, bad value noted due to spaces in audio filename.  Renamed file in my assets folder and also in the html tag to resolve this.  Checked audio player and audio is working correctly.
