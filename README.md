@@ -171,6 +171,16 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
 
 * None
 
+### Accessibility Testing
+
+    ###### Lighthouse testing
+
+    I ran each page of the site through the chrome lighthouse testing system.
+    Results for overall site are as per below.
+    Accessibility rating of 97% looked acceptabel to me but I was very surprised at the performance figures being so low (50%).  I would like to investigate the reasons for this further when more time avaialbel and when I have more experience.
+
+    !{Lighthouse testing](testing/lighthouse%20test.jpg)
+
 ## Deployment
 
 The live link can be found here - https://conorjbr.github.io/Oliver-St-John-Gogarty/
@@ -183,7 +193,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found here - https://conorjbr.github.io/Oliver-St-John-Gogarty/
 
-The steps to copy / fork the code are as follows:
+### How to Fork a Repository
 
 * In the GitHUb repository, click the "fork" tab at top right of page
 * Check the fork name is correct
@@ -191,15 +201,26 @@ The steps to copy / fork the code are as follows:
 * Edit the description if required
 * Click on green "Create Fork" button at bottom of page
 
-OR
+### Hot to Clone a Repository
 
-* In the GitHUb repository, click the green "Code" tab at top of page
-* Copy the URL for the repository.
-* Open Git Bash.
-* Change directories to the location of the fork you cloned.
-* Type git remote -v and press Enter. You will see the current configured remote repository for your fork.
-* Type git remote add upstream, and then paste the URL you copied 
-* To verify the new upstream repository you have specified for your fork, type git remote -v again. You should see the URL for your fork as origin, and the URL for the upstream repository as upstream.
+* Fork the repository using the steps above
+* Above the file list, click Code (Usually green at the top right of the code window)
+* Choose if you want to clone using HTTPS, SSH or GitHub CLI, then click the copy button to the right
+* Open Git Bash
+* Change the directory to where you want your clone to go (your own github)
+* Type git clone and then paste the URL you copied in step 4
+* Press Enter to create your clone
+
+### How to Make a Local Clone
+
+* Under the repository name, above the list of files, click Code
+* Here you will have two options, Clone or Download the repository
+* Clone the repository using HTTPS, clicking on the icon to copy the link
+* Launch the Gitpod workspace or choose your own directory
+* Open Git Bash
+* Change the current working directory to the new location of where you want the cloned directory.
+* Type git clone and then paste the URL 
+* Press Enter, to create local clone to chosen directory
 
 OR
 
@@ -260,23 +281,19 @@ OR
 
 
 
-
-
-
-
 ## Project Conclusions
 
-I was amazed that I was actually able to complete this project as I wsa totally at sea at the start.  I have learned a lot about CSS and HTML in putting together this project and am keen to put this knowledge to further use.
+I found myself very confused at the start of this project as I did not have any previous experience of html or css.  I found that I learned a lot abount both technologoes very quickly while working through the various challenges to get the project comoplete. I have learned a lot about CSS and HTML in putting together this project and am keen to put this knowledge to further use.
 
 ### Learnings from this project
 I have learned to apply te basics of html and css styling. This has ben more dificult than I thought it would be, particularly the CSS.
-It appeared from the walk-through "Love-Running" project that things would come together quite esily once the main structure was in place.  This very nuch proved toi be not the case and I wa surprised at the amount of time the styling took.  I also was surprised at how much efforrt was required to get the responsiveness to work even as well as it does on my site, which is admittedly not perfect.  I have found a number of solutions to repeated issues such a s centring on a page etc. but I still find that positioning element is something I am ot fully comfortable with.
+It appeared from the walk-through "Love-Running" project that things would come together quite readily once the main structure was in place.  This very nuch proved to not be the case and I was surprised at the amount of time the styling took.  I also was surprised at how much efforrt was required to get the responsiveness to work to an acceptabel level.  I have found a number of solutions to repeated issues such as centring elements on a page etc. but I still find that positioning elements is something I ould like to get more confortable with.
 
 ### Things I would do differently if starting again
-* Engage with mentor earlier 
-* Not put myself under time pressure ie start earlier.
-* spend more time planning the styling.
-* I would start with small screen size and work up to larger screens when setting up the responsiveness @media queries.  I did it by starting with large screen and this caused ma lot of issues with the smaller screen sizes.
+* Engage with mentor earlier in the project development.
+* Not put myself under time pressure, ie start earlier.
+* sSpend more time planning the styling.
+* I would start with small screen size and work up to larger screens when setting up the responsiveness @media queries.  I did it by starting with large screen and this caused me lot of issues with the smaller screen sizes.
 
 
 ### Future improvements to the site
@@ -287,5 +304,5 @@ It appeared from the walk-through "Love-Running" project that things would come 
 
 ## Acknowledgements & thanks
 
-Thanks to tutors at code institute and my mentor Harry for their help with hetting this project done.  Also thanks to fellow code institite students and alumni who assisted me via slack messages and calls.
-You are all a truly great bunch of people and I hope I can be helpful to other student s in the same way.
+Thanks to tutors at code institute and my mentor Harry Dhillon for their help with hetting this project done.  Also thanks to fellow code institite students and alumni who assisted me via slack messages and calls.
+You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
