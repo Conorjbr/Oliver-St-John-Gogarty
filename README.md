@@ -5,6 +5,27 @@ My goal was to create a historical website to give some basic biograpical inform
 
 View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.io/Oliver-St-John-Gogarty/)
 
+## User Experience (UX)
+
+### Target audience
+
+
+
+
+### First Time User
+
+
+
+### Return User
+
+
+
+### Site Aims
+
+
+
+
+
 ## General design of site 
 
 I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Roboto & Verdana as I like the clean look of these fonts.  
@@ -168,13 +189,42 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
   - final report on css validation as per below, no issues noted
   ![CSS Validator](testing/CSS%20validator-final.jpg)
 
+### Manual Testing
+
+  - Navigation Menu
+    - Verified that all the links linl to the corect pages and there are no broken links, 
+    test result - pass
+
+    - Verified that logo works as a link and links back to home page,
+    test result - pass
+
+    - Verify that hover effects work consistently on all links,
+    test result - pass
+
+  - Home Page
+    - Verify that hero image is not pixellated and responsive at the required screen sizes, 
+    test result - pass
+
+    - Verify that social media links in footer are working and link to corect external site, 
+    test result - pass
+
+  - Bibliogrpahy page
+    - Verify that list is presented correctly and text size responds to differnt screen sizes,
+    test result - pass
+
+  - Gallery page
+
+  - Contact page
+
+
+
 ### Unfixed Bugs
 
 * None
 
 ### Accessibility Testing
 
-  Lighthouse testing
+  #### Lighthouse testing.
   I ran each page of the site through the chrome lighthouse testing system.
   Results for overall site are as per below.
   Accessibility rating of 96% looked acceptable to me but I was very surprised at the performance figure being so low (50%).  I would like to investigate the reasons for this further when more time available and when I have more experience.
@@ -305,4 +355,4 @@ I have learned to apply the basics of html and css styling. This has been more d
 Thanks to tutors at code institute and my mentor Harry Dhillon for their help with hetting this project done.  Also thanks to fellow code institute students and alumni who assisted me via slack messages and calls.
 You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
 
-[Back to top](#oliver-st.john-gogarty)
+[Back to top](<#oliver-st.-john-gogarty>)
