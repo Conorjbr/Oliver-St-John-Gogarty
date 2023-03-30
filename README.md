@@ -1,7 +1,7 @@
 # Oliver St John Gogarty
 ## A website to outline a brief biography of a remarkable Dublin literary figure
 
-I wanted to create a historical website to give some basic biograpical information, pictures, bibliography etc. of a writer and historical period in which I have an interest.
+My goal was to create a historical website to give some basic biograpical information, pictures, bibliography etc. of a writer and historical period in which I have an interest.
 
 View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.io/Oliver-St-John-Gogarty/)
 
@@ -174,13 +174,12 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
 
 ### Accessibility Testing
 
-    ###### Lighthouse testing
-
-    I ran each page of the site through the chrome lighthouse testing system.
-    Results for overall site are as per below.
-    Accessibility rating of 97% looked acceptabel to me but I was very surprised at the performance figures being so low (50%).  I would like to investigate the reasons for this further when more time avaialbel and when I have more experience.
-
-    !{Lighthouse testing](testing/lighthouse%20test.jpg)
+  Lighthouse testing
+  I ran each page of the site through the chrome lighthouse testing system.
+  Results for overall site are as per below.
+  Accessibility rating of 96% looked acceptable to me but I was very surprised at the performance figure being so low (50%).  I would like to investigate the reasons for this further when more time available and when I have more experience.
+    
+ ![Alt text](testing/lighthouse%20test.jpg)
 
 ## Deployment
 
@@ -305,3 +304,5 @@ I have learned to apply the basics of html and css styling. This has been more d
 
 Thanks to tutors at code institute and my mentor Harry Dhillon for their help with hetting this project done.  Also thanks to fellow code institite students and alumni who assisted me via slack messages and calls.
 You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
+
+#### RETURN TO THE [TOP](# Oliver St John Gogarty)
