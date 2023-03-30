@@ -294,8 +294,8 @@ hr {
 
 .flex-container {
     display: flex;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 90%;
     flex-direction: row;
     height: max-content;
@@ -305,7 +305,7 @@ hr {
     flex: 1;
     border: 1px solid rgb(46, 44, 44);
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
 
 }
 
@@ -411,7 +411,7 @@ hr {
     }
 }
 
-/*for smaller screens & tablets 950px wide and lower*/
+/*for smaller screens & tablets 800px wide and lower*/
 
 @media screen and (max-width: 800px) {
     #photos {
@@ -434,7 +434,9 @@ hr {
     .bio-texttwo,
     .bio-text {
         /* height: 0px; */
-        display: none;
+        /* display: none; */
+        width: 80%;
+        font-size: 90%;
     }
 
     h2, h3  {
@@ -487,6 +489,15 @@ hr {
     h2, h3 {
         display: none;
     }
+
+    .bio-text {
+        display: none;
+    }
+
+    #hero-image {
+        display: none;
+    }
+
 }
 
 
