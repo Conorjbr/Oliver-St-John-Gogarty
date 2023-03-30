@@ -5,25 +5,41 @@ My goal was to create a historical website to give some basic biograpical inform
 
 View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.io/Oliver-St-John-Gogarty/)
 
+## Contents
+
+   1. User experience (UX)
+   2. General site design
+   3. Responsivenes
+   4. Features
+   5. Testing
+   6. Deployment
+   7. Credits
+   8. Conclusions
+   9. Acknowledgements & thanks
+
+
 ## User Experience (UX)
 
 ### Target audience
 
-
-
+Target audience for the site is persons who are intersted in the literary history of early twentieth century Irish literature and in particular in the unique atmosphere and character of that seminal period.
 
 ### First Time User
 
-
+As a first time usee, I would want a clear understanding of the purpose of the page and for the nvaigation of the overall site to be immediately clear and intuitive.  I would like there to be some biographical information, some literary history and some images appropriate to the subject.  I would also like to be linked to other websites with similar interests and to have the opportunity to contact people who might share my interest in this topic.  I would also be keen to listen to any audio or watch related video footage of persons in that period.
 
 ### Return User
 
+As a return user I will be using the contacts page and possibly the bibliography page also.
 
 
 ### Site Aims
 
-
-
+- Provide user with biographical details of the subject.
+- Provide users with a bibliograrphy.
+- Provide users with an image gallery
+- Enabel users to contact persons with similar interests.
+- Provide a link to an intersting radio interview
 
 
 ## General design of site 
@@ -192,29 +208,54 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
 ### Manual Testing
 
   - Navigation Menu
-    - Verified that all the links linl to the corect pages and there are no broken links, 
-    test result - pass
+    - Verify that all the links link to the correct pages and there are no broken links, 
+      - test result - pass
 
     - Verified that logo works as a link and links back to home page,
-    test result - pass
+      - test result - pass
 
     - Verify that hover effects work consistently on all links,
-    test result - pass
+      - test result - pass
 
   - Home Page
     - Verify that hero image is not pixellated and responsive at the required screen sizes, 
-    test result - pass
+      - test result - pass
 
-    - Verify that social media links in footer are working and link to corect external site, 
-    test result - pass
+    - Verify that all text is legible and divided into organised paragraphs
+      - test result - pass
+
+    - Verify that social media links in footer are working and link to correct external site, 
+      - test result - pass
 
   - Bibliogrpahy page
-    - Verify that list is presented correctly and text size responds to differnt screen sizes,
-    test result - pass
+    - Verify that list is presented correctly and text size responds to different screen sizes,
+      - test result - pass
 
   - Gallery page
+    - Verify that all link are working correctly
+      - test result - pass
 
   - Contact page
+    - Verify that first name, last name and email fields are required before submitting form.
+      - test result - pass
+    - Verify that data is posted to formdump.
+      - Test result, not passed, formdump not available.
+    - Verify that email address in form "abc@abc.com" is required in email field.
+      - test result - pass
+
+  - Useful Links
+    - Verify that hover function works for all link.
+      - test result - pass
+    - Verify that links are working and open correct external page.
+      - test result - pass
+
+  - Audio Player
+    - Verify that audio player does not autostart on loading page.
+      - test result - pass
+    - Verify that audio plays when clicked.
+      - test result - pass
+    - Verify that audio is muted ehen played
+      - test result - pass
 
 
 
@@ -355,4 +396,4 @@ I have learned to apply the basics of html and css styling. This has been more d
 Thanks to tutors at code institute and my mentor Harry Dhillon for their help with hetting this project done.  Also thanks to fellow code institute students and alumni who assisted me via slack messages and calls.
 You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
 
-[Back to top](<#oliver-st.-john-gogarty>)
+
