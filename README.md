@@ -192,7 +192,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://conorjbr.github.io/Oliver-St-John-Gogarty/
 
 ### How to Fork a Repository
 
@@ -284,23 +283,22 @@ OR
 
 ## Project Conclusions
 
-I found myself very confused at the start of this project as I did not have any previous experience of html or css.  I found that I learned a lot abount both technologoes very quickly while working through the various challenges to get the project comoplete. I have learned a lot about CSS and HTML in putting together this project and am keen to put this knowledge to further use.
+I found myself very confused at the start of this project as I did not have any previous experience of html or css.  I found that I learned a lot about both technologoes very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about CSS and HTML iand abount how to approach putting together a coding project.  I am keen to put this knowledge to further use.
 
 ### Learnings from this project
-I have learned to apply te basics of html and css styling. This has ben more dificult than I thought it would be, particularly the CSS.
-It appeared from the walk-through "Love-Running" project that things would come together quite readily once the main structure was in place.  This very nuch proved to not be the case and I was surprised at the amount of time the styling took.  I also was surprised at how much efforrt was required to get the responsiveness to work to an acceptabel level.  I have found a number of solutions to repeated issues such as centring elements on a page etc. but I still find that positioning elements is something I ould like to get more confortable with.
+I have learned to apply the basics of html and css styling. This has been more difficult than I thought it would be, particularly the CSS.  It appeared to me from the walk-through "Love-Running" project that things would come together quite readily once the main structure was in place.  This very nuch proved to not be the case and I was surprised at the amount of time the styling took.  I also was surprised at how much efforrt was required to get the responsiveness to work to an acceptable level.  I have found a number of solutions to repeated issues such as centring elements on a page etc. but I still find that positioning elements is something I would like to practice further in order get more confortable with.
 
 ### Things I would do differently if starting again
 * Engage with mentor earlier in the project development.
 * Not put myself under time pressure, ie start earlier.
-* sSpend more time planning the styling.
+* Spend more time planning the styling.
 * I would start with small screen size and work up to larger screens when setting up the responsiveness @media queries.  I did it by starting with large screen and this caused me lot of issues with the smaller screen sizes.
 
 
 ### Future improvements to the site
 
-* Improve the responsiveness at smaller sizes by adding burger menus etc.
-* Add another page to expand out the biography section / remove bigraphy from home page altogether.
+* Improve the responsiveness at smaller sizes by adding features such as burger menus etc.
+* Add another page to expand out the biography section / remove biography content from home page altogether.
 * Improve the gallery styling & add captions to all images.
 
 ## Acknowledgements & thanks
