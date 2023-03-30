@@ -10,11 +10,18 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 I chose a very basic design concept with a plain light grey background and charcoal coloured text.  Most of the font is Verdana as I like the clean look of this font.  
 I decided that 4 pages would be enough to give a brief outline of this person's life and achievements.  I was conscious of adding a lot of text to the biography section and didn't want to overload the reader with too much reading material.
 
-I did some rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do.  I did not use any wireframe creation sofware as I felt that the site structure was simple and my basic sketches were sufficient.  See sketches below.
+I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do.  I did not use any wireframe creation sofware as I felt that the site structure was simple and my basic sketches were sufficient.  See sketches below.
 
-![Wireframe sketch 1](assets/images/wf-one.jpg)
+![Wireframe preliminary sketch 1](assets/images/wf-one.jpg)
 
-![Wireframe sketch 2](assets/images/wf-two.jpg)
+![Wireframe preliminary sketch 2](assets/images/wf-two.jpg)
+
+At a later stage I refined the above into the 4-page layout that formed the final website design.
+These wireframes are shown bwlow.
+
+![Wireframe page 1 final]!(assets/wireframes/wf-pgi-final.jpg)
+![Wireframe page 2 & 3 final](assets/wireframes/wf-pgii&iii-final.jpg)
+![Wireframe page 1 final](assets/wireframes/wg-pgiv-final.jpg)
 
 ## Responsiveness
 
@@ -34,15 +41,17 @@ Tablet
 Mobile
     320x480px scaled down to scale(0.219)
 
-Overall the responsiveness looked acceptable.  I also checked all pages and manipulated screen size with the DevTools to check this and found results generally acceptable.  If I had more time and skills, I would change nav menu to burger type in the smaller sizes.  I investigated how to do this but found that I had insufficient time to progress further with this.
+Overall the responsiveness looked acceptable.  I also checked all pages and manipulated screen size with the DevTools to check this and found results mostly acceptable.  
 
+Following further review & discussoins with fellow students and my mentor. I realised that the responsiveness of my constacts page at 360px was infact not acceptable and I modified styling of this page further to improve this.  I mainly used dev tools to check resolution at the various sizes and once I got the hang of settting the screen width correctly I found this worked OK for me. 
+I feel the responsiveness is acceptable at the various screen sizes.
 
 
 ## Features
 
 ### Hero Image
 
-I chose a hero image which is an oil-painting of the website subject.  This was painted by the famous artist, Sir William Orpen.  I felt this image gives an artistic and aesthetic effect to the reader on first opening the site and I feel this is a very pleasing portrait.  I also liked the colour contrast with the light grey background.
+I chose an oil-painting of the website subject as my hero-image.  This was painted by the famous artist, Sir William Orpen.  I felt this image gives an artistic and aesthetic effect to the reader on first opening the site and I feel this is a very pleasing portrait.  I also liked the colour contrast with the light grey background.
 
 
 ![Hero Image](assets/images/hero-image.jpg)
@@ -134,7 +143,6 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
 
     h2 element with test "Some Interesting Photos" added to resolve the above.
 
-
   - Contact.html
     - ul duplicate element noted - tag removed to resolve issue
     - a & li elements  closing tag missing - added tags to resolve issue
@@ -145,6 +153,9 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
 
     - audio element closing tag missing - added to resolve.
     - audio file, bad value noted due to spaces in audio filename.  Renamed file in my assets folder and also in the html tag to resolve this.  Checked audio player and audio is working correctly.
+
+  - final report on html validation as per below, no issues noted
+  ![HTML Validator](testing/HTML%20validator-final.jpg)
   
   - Style.css
     - *Congratulations! No Error Found.*
@@ -153,6 +164,8 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
    
     - One warning noted as follows "Imported style sheets are not checked in direct input and file upload modes"
   
+  - final report on css validation as per below, no issues noted
+  ![CSS Validator](testing/CSS%20validator-final.jpg)
 
 ### Unfixed Bugs
 
