@@ -22,16 +22,15 @@ View the live project here : [Oliver St. John Gogarty](https://conorjbr.github.i
 
 ### Target audience
 
-Target audience for the site is persons who are intersted in the literary history of early twentieth century Irish literature and in particular in the unique atmosphere and character of that seminal period.
+Target audience for the site is persons who are interested in the literary and general history of early twentieth century Ireland and in particular in the unique atmosphere and character of that seminal period.  Gogarty was a fascinating character whose name is well remembered but not his actual life story.
 
 ### First Time User
 
-As a first time usee, I would want a clear understanding of the purpose of the page and for the nvaigation of the overall site to be immediately clear and intuitive.  I would like there to be some biographical information, some literary history and some images appropriate to the subject.  I would also like to be linked to other websites with similar interests and to have the opportunity to contact people who might share my interest in this topic.  I would also be keen to listen to any audio or watch related video footage of persons in that period.
+As a first time user, I would want a clear understanding of the purpose of the page and for the navigation of the overall site to be immediately clear and intuitive.  I would like there to be some biographical information, some literary history and some images appropriate to the subject.  I would also like to be linked to other websites with similar interests and to have the opportunity to contact people who might share my interest in this topic.  I would also be keen to listen to any audio or watch related video footage of persons in that period.
 
 ### Return User
 
 As a return user I will be using the contacts page and possibly the bibliography page also.
-
 
 ### Site Aims
 
