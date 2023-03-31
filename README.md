@@ -380,6 +380,7 @@ I have learned to apply the basics of html and css styling. This has been more d
 * Not put myself under time pressure, ie start earlier.
 * Spend more time planning the styling.
 * I would start with small screen size and work up to larger screens when setting up the responsiveness @media queries.  I did it by starting with large screen and this caused me lot of issues with the smaller screen sizes.
+* I would do wireframes of screens at the smaller sizes as well as the larger ones.  I only did wireframes at landscape and had to figure out the styling for smaller sizes as I went along.
 
 
 ### Future improvements to the site
