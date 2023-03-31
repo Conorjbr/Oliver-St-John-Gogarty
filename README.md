@@ -190,7 +190,7 @@ This is an interesting interview which was recorded in 1949.  I feel that its in
     - audio file, bad value noted due to spaces in audio filename.  Renamed file in my assets folder and also in the html tag to resolve this.  Checked audio player and audio is working correctly.
 
   - final report on html validation as per below, no issues noted
-  ![HTML Validator](testing/HTML%20validator-final.jpg)
+  ![HTML Validator](testing/html-validator-final.jpg)
   
   - Style.css
     - *Congratulations! No Error Found.*
@@ -391,6 +391,8 @@ I have learned to apply the basics of html and css styling. This has been more d
 
 ## Acknowledgements & thanks
 
-Thanks to the tutors at code institute and my mentor Harry Dhillon for their help with getting this project over the line.  Also thanks to my fellow code institute students and alumni who assisted me so much via slack messages and calls.  I had not realised there was such a great commnity of coders out there. You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
+Thanks to the tutors at code institute and my mentor Harry Dhillon for their help with getting this project over the line.  Also thanks to my fellow code institute students and alumni who assisted me so much via slack messages and calls.  I had not realised there was such a great community of coders out there. You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
+
+Note : This project was made purely for educational purposes and not for any financial gain.
 
 [BACK TO TOP](#Oliver-St-John-Gogarty)
